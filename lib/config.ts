@@ -55,7 +55,7 @@ export const getShopDisplayName = (): string => {
 // Helper to check if business is open
 export const isBusinessOpen = (): boolean => {
   const now = new Date();
-  const day = now.toLocaleDateString('en-US', { weekday: 'lowercase' }) as keyof typeof shopConfig.hours;
+  const day = now.toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase() as keyof typeof shopConfig.hours;
   const currentTime = now.toLocaleTimeString('en-US', { hour12: true });
   
   // This is a simplified check - implement full logic as needed
