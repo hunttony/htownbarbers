@@ -1,8 +1,8 @@
-# Houston Barbers Website
+# Houston Barbers Website - Reusable Template
 
-A modern, responsive website for a barbershop in Houston, TX built with Next.js 14, TypeScript, and Tailwind CSS.
+A modern, responsive template for barbershop websites built with Next.js 14, TypeScript, and Tailwind CSS. **Designed to be easily customized for any barbershop without affecting the template.**
 
-## Features
+## ✨ Template Features
 
 - 🎨 Modern, attractive design with smooth animations (Framer Motion)
 - 📱 Fully responsive for all devices
@@ -22,6 +22,29 @@ A modern, responsive website for a barbershop in Houston, TX built with Next.js 
 - ⚡ Fast performance with Next.js 14 App Router
 - ✅ TypeScript for type safety
 - 🎭 Smooth animations and transitions
+- 🏗️ **Multi-shop support** - Create unlimited shops from one template
+
+## 🚀 Quick Start - Create a New Shop
+
+Generate a new shop website with one command:
+
+```bash
+npm run create-shop -- --name "Your Shop Name" --city "CityName" --state "ST"
+```
+
+Example:
+```bash
+npm run create-shop -- --name "Antonio's Barbershop" --city "Austin" --state "TX"
+```
+
+This automatically:
+- ✅ Copies the template
+- ✅ Generates shop-specific config
+- ✅ Updates branding and metadata
+- ✅ Initializes Git repository
+- ✅ Creates independent shop site
+
+**[👉 Full Setup Guide](TEMPLATE_SETUP.md)**
 
 ## Getting Started
 
