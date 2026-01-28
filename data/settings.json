@@ -1,0 +1,25 @@
+{
+  "businessName": "Houston Barbers",
+  "address": "123 Main Street, Houston, TX 77002",
+  "phone": "(713) 555-0123",
+  "email": "info@houstonbarbers.com",
+  "hours": {
+    "monday": "9:00 AM - 7:00 PM",
+    "tuesday": "9:00 AM - 7:00 PM",
+    "wednesday": "9:00 AM - 7:00 PM",
+    "thursday": "9:00 AM - 7:00 PM",
+    "friday": "9:00 AM - 7:00 PM",
+    "saturday": "9:00 AM - 6:00 PM",
+    "sunday": "10:00 AM - 4:00 PM"
+  },
+  "theme": {
+    "primary": "#1a1a1a",
+    "secondary": "#d4af37",
+    "accent": "#8b7355"
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com",
+    "instagram": "https://instagram.com",
+    "twitter": "https://twitter.com"
+  }
+}
